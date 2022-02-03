@@ -42,7 +42,11 @@ p{
 
 main{
     width: 70%;
-    margin: 150px auto;
+    margin: 250px auto;
+}
+
+h2{
+    margin-bottom: 30px;
 }
 
 article ul li{
@@ -141,4 +145,49 @@ padding: 10px;
     color: white;
     text-decoration: white;
     text-align: center;
+}
+
+.bottom-col{
+    
+    padding: 10px;
+    border: solid 2px lightgray;
+    border-top: none;
+    margin-top: 50px;
+}
+
+.contatta{
+    display: inline-block;
+    width: 240px;
+    margin-left: 50%;
+}
+
+.bottom-col h3{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.partner{
+    margin: 30px 0px 30px 0px;
+}
+
+.partner img{
+    width: calc(96%/2);
+    margin: 0% 4% 0% 0%;
+    float: left;
+}
+
+.partner-txt{
+    margin-top: 20px;
+    float: left;
+    width: calc(96%/2);
+}
+
+.partner-txt a {
+    border: solid 1px lightgray;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 5%;
+    display: inline-block;
+
 }
