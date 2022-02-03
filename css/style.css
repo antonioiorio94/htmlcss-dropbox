@@ -167,7 +167,7 @@ padding: 10px;
 }
 
 .partner{
-    margin: 30px 0px 30px 0px;
+    margin-top:100px;
 }
 
 .partner img{
@@ -190,4 +190,33 @@ padding: 10px;
     margin-top: 5%;
     display: inline-block;
 
+}
+
+.container {
+
+    margin-top: 100px;
+}
+
+.container img{
+    width: 100%;
+}
+
+
+.left-content{
+    width: calc(94%/3);
+    float: left;
+    margin-right: 3%;
+
+}
+
+.cnt-content{
+    width: calc(94%/3);
+    float: left;
+    
+}
+
+.right-content{
+        width: calc(94%/3);
+        float: left;
+        margin-left: 3%;
 }
