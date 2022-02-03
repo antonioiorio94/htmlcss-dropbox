@@ -31,13 +31,30 @@ h1{
 }
 
 section{
-    background-color: rgb(190, 199, 216);
+    background-color: rgb(188, 217, 240);
     height: 80vh;
 }
 
 p{
     font-size: small;
 }
+
+
+main{
+    width: 70%;
+    margin: 150px auto;
+}
+
+article ul li{
+    font-size: small;
+    text-align: left;
+}
+
+article a{
+    text-decoration: underline;
+    color: darkblue;
+}
+
 
 .logo{
     margin-right: 100px;
@@ -80,6 +97,48 @@ p{
     background-color: rgb(19, 75, 226);
     padding: 8px;
     display: inline-block;
-    margin: 10px 10px 10px 0px;
+    margin: 20px 0px 10px 0px;
 
+}
+
+.left-col{
+  float: left;  
+  border: solid 2px lightgray;
+  width: calc(94%/3);
+  margin: 3% 3% 0% 0%;
+  padding: 10px;
+}
+
+.center-col{
+    float: left;  
+    border: solid 2px lightgray;
+    width: calc(94%/3);
+    margin: 3% 0% 0% 0%;
+    padding: 10px;
+}
+
+.right-col{
+    float: left;
+    border: solid 2px lightgray;
+width:calc(94%/3);
+margin: 3% 0% 0% 3%;
+padding: 10px;
+}
+
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+.prova-link{
+    background-color: rgb(19, 75, 226); 
+    width: 50px;
+    padding: 8px;
+    color: white;
+    text-decoration: white;
+    text-align: center;
 }
