@@ -66,6 +66,12 @@ article a{
 }
 
 
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+}
+
 .logo{
     margin-right: 100px;
     vertical-align: middle;
@@ -109,6 +115,12 @@ article a{
     display: inline-block;
     margin: 20px 0px 10px 0px;
 
+}
+
+.fas {
+    color: black;
+    width: 50px;
+    height:50px;
 }
 
 .price-section li{
@@ -379,4 +391,24 @@ padding: 10px;
     margin-top: 10px;
     margin-left: 170px;
     text-decoration: none;
+}
+
+.faq{
+    background-color: white;
+    width: 50%;
+    margin: 250px auto;
+    line-height: 500%;
+}
+
+.faq p{
+    line-height: 100%;
+    display: none;
+}
+
+.faq h3:hover{
+    color: rgb(83, 105, 226);
+}
+
+.faq h3:hover p{
+    display: inline;
 }
