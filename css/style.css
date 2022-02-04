@@ -414,6 +414,18 @@ min-height: 50vh;
     height: 40vh;
 }
 
+.faq h3{
+    display: inline-block;
+   
+    margin-bottom: 3vh;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.faq i{
+    margin-left: 20vw;
+}
+
 .faq p{
     line-height: 100%;
     display: none;
