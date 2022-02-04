@@ -245,7 +245,7 @@ padding: 10px;
 }
 .teams{
     height: 50vh;
-    background-color: aqua;
+ 
     width: 100vw;
     
 }
@@ -316,7 +316,7 @@ padding: 10px;
 }
 
 .hearst{
-    background-color: rgb(171, 215, 221);
+    background-color: rgb(188, 217, 240);
     width: 50%;
     height: 25vh;
     float: right;
@@ -355,4 +355,28 @@ padding: 10px;
     filter: brightness(0.5);
     left: 20%;
     top: auto;
+}
+
+
+.teams-footer{
+    background-color: rgb(188, 217, 240);
+    padding: 10% 25%;
+}
+
+
+.teams-footer h2{
+    float: left;
+    width: 60%;
+    color:rgb(61, 21, 21);
+}
+
+.teams-footer a{
+    background-color: white;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 170px;
+    text-decoration: none;
 }
