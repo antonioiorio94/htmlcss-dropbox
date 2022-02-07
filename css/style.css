@@ -281,33 +281,28 @@ min-height: 60vh;
 
 }
 .teams{
-    height: 50vh;
- 
-    width: 100vw;
+  width: 100%;
     
 }
 
 .team-left{
   
-    width: 25vw;
-    height: 25vh;
+    width: 25%;
     float: left;
 
 
 }
 
 .team-cnt{
-    width: 50%;
+    width: 51%;
     float: left;
-    height: 100%;
     background-color: white;
     padding: 90px;
     
 }
 
 .team-right{
-    width: 25vw;
-    height: 25vh;
+    width: 24%;
     float: right;
 }
     
@@ -464,7 +459,7 @@ min-height: 60vh;
 .footer-container ul li{
     display: block;
     text-align: left;
-  padding: 10px 0px 0px 0px;
+    margin: 10px 0px;
 }
 
 .footer-container div:first-child{
