@@ -6,21 +6,19 @@
 }
 
 header{
-    padding: 20px;
-    line-height: 100%;
-    padding: 20px;
-    line-height: 100%;
+    line-height: 100px;
     position: fixed;
     background-color: white;
     width: 100%;
+    height: 100px;
 }
 
 
 
 nav, li{
     display: inline-block;
-    padding: 10px;
     vertical-align: middle;
+    margin: 0px 20px;
     }
 
 
@@ -71,22 +69,31 @@ footer{
     height: 70vh;
 }
 
+.logo-img{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    
+}
+
 .logo{
     vertical-align: middle;
-    float: left;
 }
 
 .left-nav{
     float:left;
-    width: 70%;
+    width:70%;
 }
 
 .right-nav{
     float: left;
 }
 
-.right-nav li:last-child{
+.right-nav li a:last-child{
     background-color: #0061ff;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
 }
 
 .jumbotron{
@@ -171,15 +178,15 @@ min-height: 60vh;
     margin-top: 10px;
 }
 
-
-
-.prova-link{
+.link-prova{
     background-color: #0061ff;
-    width: 50px;
-    padding: 8px;
+        text-align: center;
+        margin: 20px;
+}
+
+.link-prova-text{
     color: white;
     text-decoration: white;
-    text-align: center;
 }
 
 .fa-check{
@@ -200,15 +207,11 @@ min-height: 60vh;
 }
 
 .info-price{
-    padding:2%
+    padding:2%;
+    line-height: 35px;
 }
 
 
-.contatta{
-    display: inline-block;
-    width: 240px;
-    margin-left: 60%;
-}
 
 .bottom-col h3{
     display: inline-block;
@@ -270,7 +273,7 @@ min-height: 60vh;
         margin-left: 3%;
 }
 
-.width100{
+.width50{
     width: 50%;
     margin: 100px auto;
 
@@ -419,7 +422,7 @@ min-height: 60vh;
     width: 50%;
     margin: 250px auto;
     line-height: 500%;
-    height: 40vh;
+    
 }
 
 .faq h3{
