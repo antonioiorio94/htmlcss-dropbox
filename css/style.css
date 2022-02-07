@@ -19,7 +19,6 @@ header{
 
 nav, li{
     display: inline-block;
-    text-align: center;
     padding: 10px;
     vertical-align: middle;
     }
@@ -73,14 +72,18 @@ footer{
 }
 
 .logo{
-    margin-right: 100px;
     vertical-align: middle;
+    float: left;
 }
 
 .left-nav{
-    margin-right: 50vw;
+    float:left;
+    width: 70%;
 }
 
+.right-nav{
+    float: left;
+}
 
 .right-nav li:last-child{
     background-color: #0061ff;
@@ -139,8 +142,7 @@ footer{
   border: solid 2px lightgray;
   width: calc(94%/3);
   margin: 3% 3% 0% 0%;
-  padding: 10px;
-  min-height: 50vh;
+ min-height: 60vh;
 }
 
 .center-col{
@@ -148,8 +150,8 @@ footer{
     border: solid 2px lightgray;
     width: calc(94%/3);
     margin: 3% 0% 0% 0%;
-    padding: 10px;
-    min-height: 50vh;
+    
+    min-height: 60vh;
 }
 
 .right-col{
@@ -157,8 +159,8 @@ footer{
     border: solid 2px lightgray;
 width:calc(94%/3);
 margin: 3% 0% 0% 3%;
-padding: 10px;
-min-height: 50vh;
+
+min-height: 60vh;
 }
 
 
@@ -166,6 +168,7 @@ min-height: 50vh;
     text-align: center;
     margin-bottom: 30px;
     border-bottom: 1px solid lightgray;
+    margin-top: 10px;
 }
 
 
@@ -190,11 +193,16 @@ min-height: 50vh;
 
 .bottom-col{
     
-    padding: 10px;
+    
     border: solid 2px lightgray;
     border-top: none;
     margin-top: 50px;
 }
+
+.info-price{
+    padding:2%
+}
+
 
 .contatta{
     display: inline-block;
