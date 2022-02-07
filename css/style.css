@@ -434,8 +434,8 @@ min-height: 60vh;
 }
 
 .faq p{
-    line-height: 100%;
     display: none;
+    line-height: 50%;
 }
 
 .faq h3:hover{
@@ -444,6 +444,8 @@ min-height: 60vh;
 
 .faq h3:hover p{
     display: inline;
+    color: black;
+
 }
 
 
